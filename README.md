@@ -1,6 +1,10 @@
 # xbt-market-data
 
-Archivo histórico de velas del mercado **XBT (BTCB2)** — registro pionero del par XBT/BTC desde los primeros días del mercado en neoxa.exchange (mercado creado el 2026-09-01).
+Archivo histórico de velas del mercado **XBT (BTCB2)** — registro pionero del par XBT/BTC desde los primeros días del mercado en [neoxa.exchange](https://neoxa.exchange) (mercado creado el 2026-09-01). Actualizado automáticamente cada 15 minutos.
+
+*Historical OHLCV archive of the XBT (BTCB2) market — a pioneer record of the XBT/BTC pair since the market's genesis (2026-09-01). The exchange API only exposes a rolling 1000-candle window; this repo preserves what would otherwise be lost. Free to use (MIT).*
+
+Es el archivo que consume el dashboard [**Oracle Trader**](https://github.com/MarcanoFilms/oracle-trader) para mostrar la historia completa del mercado más allá de la ventana de la API.
 
 ## Por qué existe
 
@@ -52,3 +56,8 @@ def load_candles(series_dir):
                 rows.append({k: (int(r[k]) if k == "time" else float(r[k])) for k in r})
     return rows
 ```
+
+## Licencia
+
+[MIT](LICENSE) © MarcanoFilms — datos y colector libres para cualquier uso;
+se agradece la atribución si publicas algo construido sobre el archivo.
