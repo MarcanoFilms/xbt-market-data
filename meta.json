@@ -2,15 +2,15 @@
  "series": {
   "neoxa/BTCB2_BTC/1m": {
    "oldest": 1792197900,
-   "newest": 1793076060
+   "newest": 1793076840
   },
   "neoxa/BTCB2_BTC/5m": {
    "oldest": 1791977400,
-   "newest": 1793076000
+   "newest": 1793076600
   },
   "neoxa/BTCB2_BTC/15m": {
    "oldest": 1791469800,
-   "newest": 1793075400
+   "newest": 1793076300
   },
   "neoxa/BTCB2_BTC/1h": {
    "oldest": 1788840000,
@@ -26,15 +26,15 @@
   },
   "neoxa/BTCB2_USDC/1m": {
    "oldest": 1792212060,
-   "newest": 1793076180
+   "newest": 1793077020
   },
   "neoxa/BTCB2_USDC/5m": {
    "oldest": 1791977700,
-   "newest": 1793076000
+   "newest": 1793076900
   },
   "neoxa/BTCB2_USDC/15m": {
    "oldest": 1791463500,
-   "newest": 1793075400
+   "newest": 1793076300
   },
   "neoxa/BTCB2_USDC/1h": {
    "oldest": 1788850800,
@@ -49,5 +49,5 @@
    "newest": 1793059200
   }
  },
- "lastRun": "2026-10-27T04:45:39.627Z"
+ "lastRun": "2026-10-27T05:00:16.271Z"
 }
