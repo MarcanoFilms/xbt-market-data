@@ -26,19 +26,19 @@
   },
   "neoxa/BTCB2_USDC/1m": {
    "oldest": 1792212060,
-   "newest": 1793264340
+   "newest": 1793264460
   },
   "neoxa/BTCB2_USDC/5m": {
    "oldest": 1791977700,
-   "newest": 1793264100
+   "newest": 1793264400
   },
   "neoxa/BTCB2_USDC/15m": {
    "oldest": 1791463500,
-   "newest": 1793263500
+   "newest": 1793264400
   },
   "neoxa/BTCB2_USDC/1h": {
    "oldest": 1788850800,
-   "newest": 1793260800
+   "newest": 1793264400
   },
   "neoxa/BTCB2_USDC/4h": {
    "oldest": 1788278400,
@@ -49,5 +49,5 @@
    "newest": 1793232000
   }
  },
- "lastRun": "2026-10-29T09:00:30.857Z"
+ "lastRun": "2026-10-29T09:15:17.630Z"
 }
